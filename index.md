@@ -1,5 +1,5 @@
 ---
 layout: page
-title: Muhammad Aburmeeleh
+title: Muhammad
 subtitle: Electrical Engineer
 ---
