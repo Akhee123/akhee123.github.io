@@ -14,8 +14,14 @@ The output signals of the SOGI can then be used as the Alpha and Beta components
 
 ![image](https://user-images.githubusercontent.com/52468587/201798377-c80dfa68-8175-4756-835b-ce4fb16488fc.png)
 
-The system can be simulated on any simulation software and I chose PLECS since it's easy to use and convenient. The simulation was executed for multiple scenarios but I will focus on the worst case scenario because it's the main goal of the project. The block diagram of the system is as follows
+The system can be simulated on any simulation software and I chose PLECS since it's easy to use and convenient. The simulation was executed for multiple scenarios but I will focus on the worst case scenario because it's the main goal of the project; synchronization between the solar panels and the generator. the load chosen for this simulation is about 5kW. The block diagram of the system is as follows
 
 ![image](https://user-images.githubusercontent.com/52468587/201801645-50186e74-8905-45e6-a42a-b39d0b646774.png)
+
+The results down below show that the system takes few cycles to stabilize and after that, it holds normal values and small phase error.
+
+![image](https://user-images.githubusercontent.com/52468587/201802212-1f4a7458-680a-4f63-b4ed-4f33c467399c.png)
+
+![image](https://user-images.githubusercontent.com/52468587/201802305-1faf4cd6-3216-4729-8817-eadfa5a3135d.png)
 
 
