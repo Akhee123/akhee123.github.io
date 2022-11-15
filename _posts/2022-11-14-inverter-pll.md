@@ -14,3 +14,8 @@ The output signals of the SOGI can then be used as the Alpha and Beta components
 
 ![image](https://user-images.githubusercontent.com/52468587/201798377-c80dfa68-8175-4756-835b-ce4fb16488fc.png)
 
+The system can be simulated on any simulation software and I chose PLECS since it's easy to use and convenient. The simulation was executed for multiple scenarios but I will focus on the worst case scenario because it's the main goal of the project. The block diagram of the system is as follows
+
+![image](https://user-images.githubusercontent.com/52468587/201801645-50186e74-8905-45e6-a42a-b39d0b646774.png)
+
+
