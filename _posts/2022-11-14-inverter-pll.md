@@ -4,5 +4,8 @@ title: Single Phase Hybrid Power System Simulation Using SOGI PLL
 subtitle: An advanced PLL algorithm with fast response for single phase systems
 thumbnail-img: /assets/img/thumb.png
 ---
-A SOGI PLL is a PLL control algorithm for on-grid inverters that enhances the feedback loop to be similar to that of 3-phase inverters and provides high response and stability for the inverter.
+A SOGI PLL is a PLL control algorithm for on-grid inverters that enhances the feedback loop to be similar to that of 3-phase inverters and provides high response and stability for the syncing capablities of the inverter. In addition to that, the simulated system consisted of solar panels, back-up generator and the grid all connected together. This type of system can be used in remote areas where the grid is not reliable during a full day.
+
+Generally in most 3-phase inverters, synchronization with the grid is achieved through transofrming the voltage signal to Alpha-Beta signals *(Clarke Transformation)* then to *dq0* signals *(dq0 Transform)*, and these signals would be used to synchronize the output signal with the input using a PLL. In case of single phase systems, it can't be achieved that easily due to the presence of one signal instead of three. So, one way of aqcuiring the alpha and beta components is by feeding the single phase signal into a Second Order Generalized Integrator *(SOGI)*.
+![image](https://user-images.githubusercontent.com/52468587/201797091-38e99dcd-3c2e-4f3c-b8c5-20b2bae5b79c.png)
 
